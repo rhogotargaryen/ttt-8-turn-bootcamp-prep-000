@@ -10,7 +10,9 @@ def input_to_index (input)
 end
 
 def position_taken(board, index)
-  return board[index] == " "
+  if board[index] == " "
+    return false
+  end
 end
 
 def valid_move?(board, index)
