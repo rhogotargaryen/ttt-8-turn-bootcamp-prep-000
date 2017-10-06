@@ -11,7 +11,6 @@ end
 
 def position_taken(board, index)
   return board[index] == "X" || "O"
-  end
 end
 
 def valid_move?(board, index)
