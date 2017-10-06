@@ -10,7 +10,7 @@ def input_to_index (input)
 end
 
 def valid_move?(board, index)
-  if board[index] == "X" || "O"
+  if board[index] == ("X" || "O")
     return false
   elsif index > 8
     return false
