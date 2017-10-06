@@ -11,7 +11,7 @@ end
 
 def valid_move?(board, index)
   if board[index] != "X" || "O"
-    return true
+    return false
   elsif index > 8
     return false
   else
